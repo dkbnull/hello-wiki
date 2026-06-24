@@ -189,9 +189,14 @@ init6 或 reboot
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/136158539](https://blog.csdn.net/dkbnull/article/details/136158539)
 
-微信：[https://mp.weixin.qq.com/s/GeqJ4bp947ItPch18SMX9w](https://mp.weixin.qq.com/s/GeqJ4bp947ItPch18SMX9w)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/136158539" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/GeqJ4bp947ItPch18SMX9w" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
 

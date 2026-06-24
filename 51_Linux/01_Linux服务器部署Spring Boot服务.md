@@ -252,9 +252,14 @@ chmod -R 777 /var/lib/mysql
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/113574249](https://blog.csdn.net/dkbnull/article/details/113574249)
 
-微信：[https://mp.weixin.qq.com/s/9Fflre540JLqSwr4Ve1KJA](https://mp.weixin.qq.com/s/9Fflre540JLqSwr4Ve1KJA)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/113574249" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/9Fflre540JLqSwr4Ve1KJA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
 

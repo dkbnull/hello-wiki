@@ -154,7 +154,11 @@ show slave status \G
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/130000965](https://blog.csdn.net/dkbnull/article/details/130000965)
 
----
+
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/130000965" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+</p>
 

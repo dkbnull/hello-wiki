@@ -32,8 +32,14 @@ vi ifcfg-ens33
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/129033267](https://blog.csdn.net/dkbnull/article/details/129033267)
 
-微信：[https://mp.weixin.qq.com/s/s7sVYFdLF1NBw2WZ5uz7JA](https://mp.weixin.qq.com/s/s7sVYFdLF1NBw2WZ5uz7JA)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/129033267" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/s7sVYFdLF1NBw2WZ5uz7JA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
+

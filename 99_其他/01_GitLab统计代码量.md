@@ -250,9 +250,14 @@ private void gitLab() throws Exception {
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/130457409](https://blog.csdn.net/dkbnull/article/details/130457409)
 
-微信：[https://mp.weixin.qq.com/s/ZWwFWDdc7w7oBmCE5cfxmA](https://mp.weixin.qq.com/s/ZWwFWDdc7w7oBmCE5cfxmA)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/130457409" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/ZWwFWDdc7w7oBmCE5cfxmA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
 

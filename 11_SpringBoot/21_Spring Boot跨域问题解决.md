@@ -267,16 +267,27 @@ public class CorsResponseBodyAdvice implements ResponseBodyAdvice {
 
 ![image-20240428223958782](./assets/21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428223958782.png)
 
----
 
-GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
-
-Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
-
-CSDN：[https://blog.csdn.net/dkbnull/article/details/138294214](https://blog.csdn.net/dkbnull/article/details/138294214)
-
-微信：[https://mp.weixin.qq.com/s/sUdk5E6cptl0QaWK2qiXUw](https://mp.weixin.qq.com/s/sUdk5E6cptl0QaWK2qiXUw)
-
-知乎：[https://zhuanlan.zhihu.com/p/695342039](https://zhuanlan.zhihu.com/p/695342039)
 
 ---
+
+
+
+<p align="center">
+    <a href="https://github.com/dkbnull/spring-boot-demo" target="_blank">
+       <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+    </a>
+    <a href="https://gitee.com/dkbnull/spring-boot-demo" target="_blank">
+       <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+    </a>
+    </br>
+    <a href="https://blog.csdn.net/dkbnull/article/details/138294214" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/sUdk5E6cptl0QaWK2qiXUw" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+	<a href="https://zhuanlan.zhihu.com/p/695342039" target="_blank">
+       <img src="https://img.shields.io/badge/知乎-访问地址-blue?logo=zhihu">
+    </a>
+</p>

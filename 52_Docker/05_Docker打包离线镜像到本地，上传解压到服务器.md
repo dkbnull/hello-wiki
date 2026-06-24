@@ -1,13 +1,7 @@
-# 1 查看所有镜像
+# 1 拉取镜像
 
 ~~~shell
-docker images
-~~~
-
-注：如果我们想打包本服务器没有的镜像，可以先将镜像拉下来，比如
-
-~~~shell
-docker pull openjdk:8
+docker pull mysql:latest
 ~~~
 
 # 2 打包镜像到服务器指定目录
@@ -52,9 +46,14 @@ docker run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/136159798](https://blog.csdn.net/dkbnull/article/details/136159798)
 
-微信：[https://mp.weixin.qq.com/s/8WcogkO0hCcooLOquC1JuA](https://mp.weixin.qq.com/s/8WcogkO0hCcooLOquC1JuA)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/136159798" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/8WcogkO0hCcooLOquC1JuA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
 

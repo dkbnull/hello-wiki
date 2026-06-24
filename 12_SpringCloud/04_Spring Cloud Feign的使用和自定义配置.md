@@ -340,18 +340,25 @@ spring-boot-provider-v2服务GatewayController类增加如下代码
 
 ---
 
-GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/89525792](https://blog.csdn.net/dkbnull/article/details/89525792)
-
-微信：[https://mp.weixin.qq.com/s/RL8ZtwH3x6XZLzE-pYj6dA](https://mp.weixin.qq.com/s/RL8ZtwH3x6XZLzE-pYj6dA)
-
-微博：[https://weibo.com/ttarticle/p/show?id=2309404369596210654515](https://weibo.com/ttarticle/p/show?id=2309404369596210654515)
-
-知乎：[https://zhuanlan.zhihu.com/p/65008318](https://zhuanlan.zhihu.com/p/65008318)
-
----
+<p align="center">
+    <a href="https://github.com/dkbnull/spring-cloud-demo" target="_blank">
+       <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+    </a>
+    <a href="https://gitee.com/dkbnull/spring-cloud-demo" target="_blank">
+       <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+    </a>
+    </br>
+    <a href="https://blog.csdn.net/dkbnull/article/details/89525792" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/RL8ZtwH3x6XZLzE-pYj6dA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+	<a href="https://zhuanlan.zhihu.com/p/65008318" target="_blank">
+       <img src="https://img.shields.io/badge/知乎-访问地址-blue?logo=zhihu">
+    </a>
+</p>
 
 

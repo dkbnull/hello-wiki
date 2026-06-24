@@ -209,8 +209,13 @@ redis-cli --cluster del-node 172.38.0.17:6379 主机6377节点di
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/130022026](https://blog.csdn.net/dkbnull/article/details/130022026)
 
-微信：[https://mp.weixin.qq.com/s/YoiWd3tygrYZ_dLxaqpOlQ](https://mp.weixin.qq.com/s/YoiWd3tygrYZ_dLxaqpOlQ)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/130022026" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/YoiWd3tygrYZ_dLxaqpOlQ" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>

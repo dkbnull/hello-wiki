@@ -216,17 +216,24 @@ res\xml文件夹下新建file_paths.xml，path就是下载的apk存放目录
 
 ---
 
-GitHub：[https://github.com/dkbnull/android-demo](https://github.com/dkbnull/android-demo)
 
-Gitee：[https://gitee.com/dkbnull/android-demo](https://gitee.com/dkbnull/android-demo)
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/104088585](https://blog.csdn.net/dkbnull/article/details/104088585)
-
-微信：[https://mp.weixin.qq.com/s/jkK7rR6rRmbeMekqh3h6WQ](https://mp.weixin.qq.com/s/jkK7rR6rRmbeMekqh3h6WQ)
-
-微博：[https://weibo.com/ttarticle/p/show?id=2309404465065775464739](https://weibo.com/ttarticle/p/show?id=2309404465065775464739)
-
-知乎：[https://zhuanlan.zhihu.com/p/104902195](https://zhuanlan.zhihu.com/p/104902195)
-
----
+<p align="center">
+    <a href="https://github.com/dkbnull/android-demo" target="_blank">
+       <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+    </a>
+    <a href="https://gitee.com/dkbnull/android-demo" target="_blank">
+       <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+    </a>
+    </br>
+    <a href="https://blog.csdn.net/dkbnull/article/details/104088585" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/jkK7rR6rRmbeMekqh3h6WQ" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+	<a href="https://zhuanlan.zhihu.com/p/104902195" target="_blank">
+       <img src="https://img.shields.io/badge/知乎-访问地址-blue?logo=zhihu">
+    </a>
+</p>
 

@@ -1507,11 +1507,17 @@ sentinel client-reconfig-script mymaster /var/redis/reconfig.sh # 一般都是�
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/139610450](https://blog.csdn.net/dkbnull/article/details/139610450)
 
-知乎：[https://zhuanlan.zhihu.com/p/702829923](https://zhuanlan.zhihu.com/p/702829923)
 
-微信：[https://mp.weixin.qq.com/s/iASczvllGo7J__n5srYlnA](https://mp.weixin.qq.com/s/iASczvllGo7J__n5srYlnA)
-
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/139610450" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/iASczvllGo7J__n5srYlnA" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+	<a href="https://zhuanlan.zhihu.com/p/702829923" target="_blank">
+       <img src="https://img.shields.io/badge/知乎-访问地址-blue?logo=zhihu">
+    </a>
+</p>
 

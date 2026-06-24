@@ -777,9 +777,14 @@ Granfana
 
 ---
 
-CSDN：[https://blog.csdn.net/dkbnull/article/details/129506197](https://blog.csdn.net/dkbnull/article/details/129506197)
 
-微信：[https://mp.weixin.qq.com/s/mArC9fSIyQtp_wszH4YJyw](https://mp.weixin.qq.com/s/mArC9fSIyQtp_wszH4YJyw)
 
----
+<p align="center">
+    <a href="https://blog.csdn.net/dkbnull/article/details/129506197" target="_blank">
+       <img src="https://img.shields.io/badge/CSDN-访问地址-red?logo=csdn">
+    </a>
+    <a href="https://mp.weixin.qq.com/s/mArC9fSIyQtp_wszH4YJyw" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+</p>
 
