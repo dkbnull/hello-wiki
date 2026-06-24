@@ -104,7 +104,7 @@ public class WebSocketService {
         try {
             session.close();
         } catch (IOException e) {
-            logger.error("金斗云关闭连接异常：" + e);
+            logger.error("关闭连接异常：" + e);
         }
     }
 
@@ -336,7 +336,7 @@ public class WebSocketService {
         try {
             session.close();
         } catch (IOException e) {
-            logger.error("金斗云关闭连接异常：" + e);
+            logger.error("关闭连接异常：" + e);
         }
     }
 

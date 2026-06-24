@@ -56,7 +56,7 @@ docker run -p 3308:3306 --name mysql-slave \
 -v /mydata/mysql-slave/log:/var/log/mysql \
 -v /mydata/mysql-slave/data:/var/lib/mysql \
 -v /mydata/mysql-slave/conf:/etc/mysql/conf.d \
--e MYSQL_ROOT_PASSWORD=root -d mysql
+-e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 ~~~
 
 ## 进入/mydata/mysql-slave/conf目录下新建my.cnf

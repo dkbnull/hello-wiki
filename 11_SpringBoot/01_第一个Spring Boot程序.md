@@ -24,7 +24,7 @@ Spring Boot会根据我们项目中的jar包依赖，对项目进行自动配置
 
 * **5、准生产的应用监控**
 
-Spring Boot提供了基于http、ssh、telnet对运行时的项目进行监控。
+Spring Boot提供了基于HTTP的Actuator端点对运行时的项目进行监控。
 
 * **6、绝对没有代码生成并且对XML也没有配置要求**
 

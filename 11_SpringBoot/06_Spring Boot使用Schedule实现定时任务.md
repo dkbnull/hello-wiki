@@ -161,7 +161,7 @@ public class ScheduledTask {
 
     private void scheduledTask() {
         try {
-            Thread.sleep(12000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -197,9 +197,9 @@ public class ScheduledTask {
 [INFO][2019-02-18 17:32:18,134]||定时任务结束 ByFixedRate：2019-02-18 17:32:18
 ~~~
 
-对于fixedRate 来说，如果业务代码执行时间小于定时任务间隔时间，那么定时任务每10秒执行一次，且不受业务代码影响，无论业务代码执行多久，定时任务都是10秒执行一次；
+对于fixedRate 来说，如果业务代码执行时间小于定时任务间隔时间，那么定时任务每10秒执行一次，且不受业务代码影响，定时任务都是10秒执行一次；
 
-如果业务代码执行时间大于定时任务间隔时间，则定时任务循环执行。
+如果业务代码执行时间大于定时任务间隔时间，则上一次任务执行结束后，下一次任务会立即执行（不会等待完整间隔时间）。
 
 ## 1.3 @Scheduled(fixedDelay = 10000)
 
@@ -323,7 +323,7 @@ public class ScheduledTask {
 
 0 0 4 1 * ?	每月1号凌晨4点触发
 
-0 0 4 L * ?	每月最后一天凌晨3点触发
+0 0 4 L * ?	每月最后一天凌晨4点触发
 
 0 0 3 ? * L	每周星期六凌晨3点触发
 

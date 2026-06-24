@@ -105,7 +105,7 @@ public class SpringCloudEurekaApplication {
 
 ## 2.1 引入依赖
 
-~~~yml
+~~~xml
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
