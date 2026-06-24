@@ -14,7 +14,7 @@ Spring Boot可以以jar包的形式独立运行，使用：java -jar xxx.jar 就
 
 Spring Boot内嵌Tomcat容器，无需使用war包的方式部署项目，可以通过执行项目的main函数，让项目快速运行。
 
-* **3、提供starter简化Manen配置**
+* **3、提供starter简化Maven配置**
 
 Spring Boot提供了一系列的starter pom用来简化我们的Maven依赖
 
@@ -100,7 +100,7 @@ public class GatewayController {
 
 **@SpringBootConfiguration**注解就是@Configuration注解，表示该类是一个配置类；
 
-**@ EnableAutoConfiguration**注解作用是让Spring Boot根据jar包依赖为当前项目进行自动配置。比如，如果spring-boot-starter-web已经添加了Tomcat和Spring MVC，这个注解会自动假设正在开发一个Web应用程序并添加相应的Spring设置；
+**@EnableAutoConfiguration**注解作用是让Spring Boot根据jar包依赖为当前项目进行自动配置。比如，如果spring-boot-starter-web已经添加了Tomcat和Spring MVC，这个注解会自动假设正在开发一个Web应用程序并添加相应的Spring设置；
 
 **@ComponentScan**注解的作用是告诉Spring自动扫描并且装入bean容器。
 

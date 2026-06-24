@@ -855,12 +855,15 @@ Jedis jedis = new Jedis("127.0.0.1", 6379);
 
 jedis.watch("key");
 
+Transaction multi = null;
 try{
-    Transaction multi = jedis.multi();
+    multi = jedis.multi();
     multi.set("key", "value");
     multi.exec();
 }catch (Exception e){
-    multi.discard();
+    if (multi != null) {
+        multi.discard();
+    }
 }finally{
     jedis.close();
 }

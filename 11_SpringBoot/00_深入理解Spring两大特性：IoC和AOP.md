@@ -4,7 +4,7 @@
 
 Spring核心容器的主要组件是Bean工厂（BeanFactory），Bean工厂使用控制反转（IoC）模式来降低程序代码之间的耦合度，并提供了面向切面编程（AOP）的实现。
 
-简单来说，<font color='red'>Spring是一个轻量级的控制反转（IoC）和面向切面编程（AOP）的容器框架。</font>>
+简单来说，<font color='red'>Spring是一个轻量级的控制反转（IoC）和面向切面编程（AOP）的容器框架。</font>
 
 下面，我们简要说明下这两大特性。
 
@@ -180,7 +180,7 @@ public class BaseController {
 
 在实际开发中，比如商品查询、促销查询等业务，都需要记录日志、异常处理等操作，AOP把所有共用代码都剥离出来，单独放置到某个类中进行集中管理，在具体运行时，由容器进行动态织入这些公共代码。
 
-AOP主要一般应用于<font color='red'>签名验签、参数校验、日志记录、事务控制、权限控制、性能统计、异常处理等地。</font>
+AOP主要应用于<font color='red'>签名验签、参数校验、日志记录、事务控制、权限控制、性能统计、异常处理等地。</font>
 
 ## AOP涉及名词
 
@@ -225,7 +225,7 @@ execution(modifier-pattern? ret-type-pattern declaring-type-pattern? name-patter
 例
 
 ~~~java
-@Pointcut("execution(public * cn.wbnull. springbootdemo.controller.*.*(..))")
+@Pointcut("execution(public * cn.wbnull.springbootdemo.controller.*.*(..))")
 private void sign() {
  
 }

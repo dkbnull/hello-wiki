@@ -24,10 +24,10 @@ import org.springframework.stereotype.Component;
 public class ScheduledTask {
 
     @Scheduled(cron = "0/10 * * * * ?") //每10秒执行一次
-    public void scheduledTaskByCorn() {
-        LoggerUtils.info("定时任务开始 ByCorn：" + DateUtils.dateFormat());
+    public void scheduledTaskByCron() {
+        LoggerUtils.info("定时任务开始 ByCron：" + DateUtils.dateFormat());
         scheduledTask();
-        LoggerUtils.info("定时任务结束 ByCorn：" + DateUtils.dateFormat());
+        LoggerUtils.info("定时任务结束 ByCron：" + DateUtils.dateFormat());
     }
 
     @Scheduled(fixedRate = 10000) //每10秒执行一次
@@ -89,10 +89,10 @@ import org.springframework.stereotype.Component;
 public class ScheduledTask {
 
     @Scheduled(cron = "0/10 * * * * ?") //每10秒执行一次
-    public void scheduledTaskByCorn() {
-        LoggerUtils.info("定时任务开始 ByCorn：" + DateUtils.dateFormat());
+    public void scheduledTaskByCron() {
+        LoggerUtils.info("定时任务开始 ByCron：" + DateUtils.dateFormat());
         scheduledTask();
-        LoggerUtils.info("定时任务结束 ByCorn：" + DateUtils.dateFormat());
+        LoggerUtils.info("定时任务结束 ByCron：" + DateUtils.dateFormat());
     }
 
     private void scheduledTask() {
@@ -108,29 +108,29 @@ public class ScheduledTask {
 启动项目，运行结果如下
 
 ~~~
-[INFO][2019-02-18 16:08:40,095]||定时任务开始 ByCorn：2019-02-18 16:08:40
-[INFO][2019-02-18 16:08:45,097]||定时任务结束 ByCorn：2019-02-18 16:08:45
-[INFO][2019-02-18 16:08:50,001]||定时任务开始 ByCorn：2019-02-18 16:08:50
-[INFO][2019-02-18 16:08:55,003]||定时任务结束 ByCorn：2019-02-18 16:08:55
-[INFO][2019-02-18 16:09:00,002]||定时任务开始 ByCorn：2019-02-18 16:09:00
-[INFO][2019-02-18 16:09:05,004]||定时任务结束 ByCorn：2019-02-18 16:09:05
-[INFO][2019-02-18 16:09:10,001]||定时任务开始 ByCorn：2019-02-18 16:09:10
-[INFO][2019-02-18 16:09:15,003]||定时任务结束 ByCorn：2019-02-18 16:09:15
-[INFO][2019-02-18 16:09:20,001]||定时任务开始 ByCorn：2019-02-18 16:09:20
-[INFO][2019-02-18 16:09:25,002]||定时任务结束 ByCorn：2019-02-18 16:09:25
-[INFO][2019-02-18 16:09:30,001]||定时任务开始 ByCorn：2019-02-18 16:09:30
-[INFO][2019-02-18 16:09:35,002]||定时任务结束 ByCorn：2019-02-18 16:09:35
+[INFO][2019-02-18 16:08:40,095]||定时任务开始 ByCron：2019-02-18 16:08:40
+[INFO][2019-02-18 16:08:45,097]||定时任务结束 ByCron：2019-02-18 16:08:45
+[INFO][2019-02-18 16:08:50,001]||定时任务开始 ByCron：2019-02-18 16:08:50
+[INFO][2019-02-18 16:08:55,003]||定时任务结束 ByCron：2019-02-18 16:08:55
+[INFO][2019-02-18 16:09:00,002]||定时任务开始 ByCron：2019-02-18 16:09:00
+[INFO][2019-02-18 16:09:05,004]||定时任务结束 ByCron：2019-02-18 16:09:05
+[INFO][2019-02-18 16:09:10,001]||定时任务开始 ByCron：2019-02-18 16:09:10
+[INFO][2019-02-18 16:09:15,003]||定时任务结束 ByCron：2019-02-18 16:09:15
+[INFO][2019-02-18 16:09:20,001]||定时任务开始 ByCron：2019-02-18 16:09:20
+[INFO][2019-02-18 16:09:25,002]||定时任务结束 ByCron：2019-02-18 16:09:25
+[INFO][2019-02-18 16:09:30,001]||定时任务开始 ByCron：2019-02-18 16:09:30
+[INFO][2019-02-18 16:09:35,002]||定时任务结束 ByCron：2019-02-18 16:09:35
 ~~~
 
 我们再改下scheduledTask方法中线程休眠时间，使休眠时间大于定时任务间隔时间<font color="8B8B7A">Thread.sleep(12000);</font>，然后启动项目，查看运行结果。
 
 ~~~
-[INFO][2019-02-18 16:14:20,080]||定时任务开始 ByCorn：2019-02-18 16:14:20
-[INFO][2019-02-18 16:14:32,081]||定时任务结束 ByCorn：2019-02-18 16:14:32
-[INFO][2019-02-18 16:14:40,001]||定时任务开始 ByCorn：2019-02-18 16:14:40
-[INFO][2019-02-18 16:14:52,002]||定时任务结束 ByCorn：2019-02-18 16:14:52
-[INFO][2019-02-18 16:15:00,000]||定时任务开始 ByCorn：2019-02-18 16:15:00
-[INFO][2019-02-18 16:15:12,002]||定时任务结束 ByCorn：2019-02-18 16:15:12
+[INFO][2019-02-18 16:14:20,080]||定时任务开始 ByCron：2019-02-18 16:14:20
+[INFO][2019-02-18 16:14:32,081]||定时任务结束 ByCron：2019-02-18 16:14:32
+[INFO][2019-02-18 16:14:40,001]||定时任务开始 ByCron：2019-02-18 16:14:40
+[INFO][2019-02-18 16:14:52,002]||定时任务结束 ByCron：2019-02-18 16:14:52
+[INFO][2019-02-18 16:15:00,000]||定时任务开始 ByCron：2019-02-18 16:15:00
+[INFO][2019-02-18 16:15:12,002]||定时任务结束 ByCron：2019-02-18 16:15:12
 ~~~
 
 我们可以看到，对于cron表达式 来说，如果业务代码执行时间小于定时任务间隔时间，那么定时任务每10秒执行一次，且不受业务代码影响，无论业务代码执行多久，定时任务都是10秒执行一次；
@@ -271,11 +271,11 @@ public class ScheduledTask {
 
 <br>
 
-# 2. corn表达式
+# 2. cron表达式
 
-## 2.1 corn表达式格式
+## 2.1 cron表达式格式
 
-<font color="#FF0000">**corn表达式格式：秒 分 时 日 月 星期 年（可选）**</font>
+<font color="#FF0000">**cron表达式格式：秒 分 时 日 月 星期 年（可选）**</font>
 
 | 字段名     | 允许的值        | 允许的特殊字符  |
 | ---------- | --------------- | --------------- |
@@ -333,13 +333,13 @@ public class ScheduledTask {
 
 # 3. 配置定时任务 
 
-对于上面那些简单的定时任务，定时任务的corn表达式写死在代码里，如果要改动表达式，需要修改代码，重新打包发布，比较麻烦。因此，我们可以把corn表达式配置在配置文件中，然后程序读取配置，当需要修改表达式时，只需要修改配置文件即可。
+对于上面那些简单的定时任务，定时任务的cron表达式写死在代码里，如果要改动表达式，需要修改代码，重新打包发布，比较麻烦。因此，我们可以把cron表达式配置在配置文件中，然后程序读取配置，当需要修改表达式时，只需要修改配置文件即可。
 
 application.yml增加配置
 
 ~~~yaml
 demo:
-  corn: 0/11 * * * * ?
+  cron: 0/11 * * * * ?
 ~~~
 
 定时任务
@@ -355,7 +355,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduledTask {
 
-    @Scheduled(cron = "${demo.corn}")
+    @Scheduled(cron = "${demo.cron}")
     public void scheduledTaskByConfig() {
         LoggerUtils.info("定时任务 ByConfig：" + DateUtils.dateFormat());
     }
@@ -378,7 +378,7 @@ public class ScheduledTask {
 
 ~~~
 demo:
-  corn: 0/23 * * * * ?
+  cron: 0/23 * * * * ?
 ~~~
 
 启动项目，运行结果如下
@@ -397,14 +397,14 @@ demo:
 
 # 4. 动态修改定时任务
 
-对于有些情况，我们需要在代码中，通过方法动态修改定时任务corn表达式
+对于有些情况，我们需要在代码中，通过方法动态修改定时任务cron表达式
 
 application.yml配置
 
 ~~~yaml
 demo:
-  corn: 0/7 * * * * ?
-  cornV2: 0/22 * * * * ?
+  cron: 0/7 * * * * ?
+  cronV2: 0/22 * * * * ?
 ~~~
 
 新建ScheduledTaskV2.java
@@ -423,10 +423,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduledTaskV2 implements SchedulingConfigurer {
 
-    @Value("${demo.corn}")
-    private String corn;
-    @Value("${demo.cornV2}")
-    private String cornV2;
+    @Value("${demo.cron}")
+    private String cron;
+    @Value("${demo.cronV2}")
+    private String cronV2;
 
     private int tag = 0;
 
@@ -437,12 +437,12 @@ public class ScheduledTaskV2 implements SchedulingConfigurer {
         }, (triggerContext) -> {
             CronTrigger cronTrigger;
             if (tag % 2 == 0) {
-                LoggerUtils.info("定时任务V2动态修改corn表达式：" + corn + "," + DateUtils.dateFormat());
-                cronTrigger = new CronTrigger(corn);
+                LoggerUtils.info("定时任务V2动态修改cron表达式：" + cron + "," + DateUtils.dateFormat());
+                cronTrigger = new CronTrigger(cron);
                 tag++;
             } else {
-                LoggerUtils.info("定时任务V2动态修改corn表达式：" + cornV2 + "," + DateUtils.dateFormat());
-                cronTrigger = new CronTrigger(cornV2);
+                LoggerUtils.info("定时任务V2动态修改cron表达式：" + cronV2 + "," + DateUtils.dateFormat());
+                cronTrigger = new CronTrigger(cronV2);
                 tag++;
             }
 
@@ -456,26 +456,26 @@ public class ScheduledTaskV2 implements SchedulingConfigurer {
 
 ~~~
 [INFO][2019-02-19 00:19:49,011]||定时任务V2：2019-02-19 00:19:49
-[INFO][2019-02-19 00:19:49,011]||定时任务V2动态修改corn表达式：0/22 * * * * ?,2019-02-19 00:19:49
+[INFO][2019-02-19 00:19:49,011]||定时任务V2动态修改cron表达式：0/22 * * * * ?,2019-02-19 00:19:49
 [INFO][2019-02-19 00:20:00,007]||定时任务V2：2019-02-19 00:20:00
-[INFO][2019-02-19 00:20:00,007]||定时任务V2动态修改corn表达式：0/7 * * * * ?,2019-02-19 00:20:00
+[INFO][2019-02-19 00:20:00,007]||定时任务V2动态修改cron表达式：0/7 * * * * ?,2019-02-19 00:20:00
 [INFO][2019-02-19 00:20:07,006]||定时任务V2：2019-02-19 00:20:07
-[INFO][2019-02-19 00:20:07,006]||定时任务V2动态修改corn表达式：0/22 * * * * ?,2019-02-19 00:20:07
+[INFO][2019-02-19 00:20:07,006]||定时任务V2动态修改cron表达式：0/22 * * * * ?,2019-02-19 00:20:07
 [INFO][2019-02-19 00:20:22,008]||定时任务V2：2019-02-19 00:20:22
-[INFO][2019-02-19 00:20:22,008]||定时任务V2动态修改corn表达式：0/7 * * * * ?,2019-02-19 00:20:22
+[INFO][2019-02-19 00:20:22,008]||定时任务V2动态修改cron表达式：0/7 * * * * ?,2019-02-19 00:20:22
 [INFO][2019-02-19 00:20:28,010]||定时任务V2：2019-02-19 00:20:28
-[INFO][2019-02-19 00:20:28,010]||定时任务V2动态修改corn表达式：0/22 * * * * ?,2019-02-19 00:20:28
+[INFO][2019-02-19 00:20:28,010]||定时任务V2动态修改cron表达式：0/22 * * * * ?,2019-02-19 00:20:28
 [INFO][2019-02-19 00:20:44,003]||定时任务V2：2019-02-19 00:20:44
-[INFO][2019-02-19 00:20:44,003]||定时任务V2动态修改corn表达式：0/7 * * * * ?,2019-02-19 00:20:44
+[INFO][2019-02-19 00:20:44,003]||定时任务V2动态修改cron表达式：0/7 * * * * ?,2019-02-19 00:20:44
 [INFO][2019-02-19 00:20:49,004]||定时任务V2：2019-02-19 00:20:49
-[INFO][2019-02-19 00:20:49,004]||定时任务V2动态修改corn表达式：0/22 * * * * ?,2019-02-19 00:20:49
+[INFO][2019-02-19 00:20:49,004]||定时任务V2动态修改cron表达式：0/22 * * * * ?,2019-02-19 00:20:49
 [INFO][2019-02-19 00:21:00,011]||定时任务V2：2019-02-19 00:21:00
-[INFO][2019-02-19 00:21:00,011]||定时任务V2动态修改corn表达式：0/7 * * * * ?,2019-02-19 00:21:00
+[INFO][2019-02-19 00:21:00,011]||定时任务V2动态修改cron表达式：0/7 * * * * ?,2019-02-19 00:21:00
 [INFO][2019-02-19 00:21:07,011]||定时任务V2：2019-02-19 00:21:07
-[INFO][2019-02-19 00:21:07,011]||定时任务V2动态修改corn表达式：0/22 * * * * ?,2019-02-19 00:21:07
+[INFO][2019-02-19 00:21:07,011]||定时任务V2动态修改cron表达式：0/22 * * * * ?,2019-02-19 00:21:07
 ~~~
 
-成功通过代码动态修改corn表达式且运行结果正确。
+成功通过代码动态修改cron表达式且运行结果正确。
 
 <br>
 

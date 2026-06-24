@@ -176,7 +176,7 @@ defaults	挂载参数
 命令：
 
 ~~~shell
-init6 或 reboot
+init 6 或 reboot
 ~~~
 
 ![img](./assets/03_Centos7挂载磁盘.assets/1707966724104.png)

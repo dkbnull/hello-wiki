@@ -59,7 +59,7 @@ INSERT INTO table (id, name)
     ) AS table_temp (id, name)
     WHERE NOT EXISTS (
     SELECT * FROM table WHERE table.id= table_temp.id
-    )；
+    );
     
 UPDATE table 
 	SET table.name = table_temp.name

@@ -38,7 +38,7 @@ DevOps 开发、运维
 
 容器container
 
-仓库respository
+仓库repository
 
 ~~~shell
 # 卸载旧版本
@@ -539,17 +539,17 @@ docker image prune
        valid_lft forever preferred_lft forever
 ~~~
 
-我们每启动一个docker客器，docker就会给docker客器分配一个ip，我们只要安装了doker，就会有一个网卡docker0
+我们每启动一个docker容器，docker就会给docker容器分配一个ip，我们只要安装了docker，就会有一个网卡docker0
 
-桥接模式，使用的技术是 evth·pair 技术
+桥接模式，使用的技术是 veth-pair 技术
 
 这些容器带来的网卡，都是一对一对的
 
-evth·pair 技术就是一对的虚拟设备接口，他们都是成对出现的，一端连着协议，一端彼此相连
+veth-pair 技术就是一对的虚拟设备接口，他们都是成对出现的，一端连着协议，一端彼此相连
 
-正因为有这个特性，所以利用 evth·pair 充当一个桥梁，用于连接各种虚拟网络设备
+正因为有这个特性，所以利用 veth-pair 充当一个桥梁，用于连接各种虚拟网络设备
 
-OpenStac，docker容器之间的链接，OVS的连接，都是使用evth·pair技术
+OpenStack，docker容器之间的链接，OVS的连接，都是使用veth-pair技术
 
 
 
