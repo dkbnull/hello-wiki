@@ -4,7 +4,7 @@
 
 ## 文章列表
 
-1. [SQL Server中类似MySQL的REPLACE INTO语句](01_SQL Server中类似MySQL的REPLACE INTO语句.md)
-2. [PostgreSQL中类似MySQL的REPLACE INTO语句](02_PostgreSQL中类似MySQL的REPLACE INTO语句.md)
-3. [配置MySQL远程连接](03_配置MySQL远程连接.md)
-4. [SQL Server 与 MySQL 字段、函数差异](04_SQL Server 与 MySQL 字段、函数差异.md)
+1. [SQL Server中类似MySQL的REPLACE INTO语句](<01-SQL Server中类似MySQL的REPLACE INTO语句.md>)
+2. [PostgreSQL中类似MySQL的REPLACE INTO语句](<02-PostgreSQL中类似MySQL的REPLACE INTO语句.md>)
+3. [配置MySQL远程连接](03-配置MySQL远程连接.md)
+4. [SQL Server 与 MySQL 字段、函数差异](<04-SQL Server 与 MySQL 字段、函数差异.md>)

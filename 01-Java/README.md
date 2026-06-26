@@ -12,4 +12,4 @@ Java 语言基础与进阶实践。
 
 ## 文章列表
 
-1. [Java使用JNA方式调用DLL](01_Java使用JNA方式调用DLL.md)
+1. [Java使用JNA方式调用DLL](01-Java使用JNA方式调用DLL.md)

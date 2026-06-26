@@ -4,4 +4,4 @@
 
 ## 文章列表
 
-1. [GitLab统计代码量](01_GitLab统计代码量.md)
+1. [GitLab统计代码量](01-GitLab统计代码量.md)
