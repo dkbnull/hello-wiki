@@ -1,5 +1,3 @@
-# Vue 虚拟 DOM Diff 算法与 key 机制原理
-
 ## 一、为什么需要虚拟 DOM 与 Diff
 
 直接操作真实 DOM 成本高（重排/重绘、性能差）。Vue 用 **虚拟 DOM（VNode）** 对真实 DOM 做轻量 JS 描述，例如：
@@ -191,3 +189,16 @@ input { margin-left: 10px; }
 | 正确做法       | 为条件渲染节点添加唯一 `key`，强制 Vue 创建独立 DOM                          |
 | 适用范围       | 不仅限于 `v-for`，`v-if` 动态插入的同级节点同样需要 `key`                    |
 
+---
+
+<p align="center">
+    <a href="https://mp.weixin.qq.com/s/2YWaZ1RJl3_K1s_GHcIYVw" target="_blank">
+       <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
+    </a>
+    <a href="https://juejin.cn/post/7655245911812341806" target="_blank">
+       <img src="https://img.shields.io/badge/掘金-访问地址-blue?logo=juejin">
+    </a>
+    <a href="https://zhuanlan.zhihu.com/p/2053624428425123221" target="_blank">
+       <img src="https://img.shields.io/badge/知乎-访问地址-blue?logo=zhihu">
+    </a>
+</p>
