@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/HTML--CSS--JS-0-lightgrey">
   <img src="https://img.shields.io/badge/Vue-1-green">
   <img src="https://img.shields.io/badge/Android-3-orange">
-  <img src="https://img.shields.io/badge/数据库-4-red">
+  <img src="https://img.shields.io/badge/数据库-5-red">
   <img src="https://img.shields.io/badge/Redis-1-red">
   <img src="https://img.shields.io/badge/Linux-3-yellow">
   <img src="https://img.shields.io/badge/Docker-9-yellow">
