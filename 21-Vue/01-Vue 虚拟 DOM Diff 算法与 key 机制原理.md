@@ -192,6 +192,12 @@ input { margin-left: 10px; }
 ---
 
 <p align="center">
+    <a href="https://github.com/dkbnull/hello-wiki/blob/main/21-Vue/01-Vue%20%E8%99%9A%E6%8B%9F%20DOM%20Diff%20%E7%AE%97%E6%B3%95%E4%B8%8E%20key%20%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+    </a>
+    <a href="https://gitee.com/dkbnull/hello-wiki/blob/main/21-Vue/01-Vue%20%E8%99%9A%E6%8B%9F%20DOM%20Diff%20%E7%AE%97%E6%B3%95%E4%B8%8E%20key%20%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md" target="_blank">
+        <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+    </a>
     <a href="https://mp.weixin.qq.com/s/2YWaZ1RJl3_K1s_GHcIYVw" target="_blank">
        <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
     </a>
