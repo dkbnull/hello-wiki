@@ -1131,6 +1131,12 @@ public class SentinelRuleConfig {
 ---
 
 <p align="center">
+  <a href="https://github.com/dkbnull/hello-wiki/blob/main/41-Redis/02-Redis%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E3%80%81%E5%87%BB%E7%A9%BF%E4%B8%8E%E9%9B%AA%E5%B4%A9%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md" target="_blank">
+     <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+  </a>
+  <a href="https://gitee.com/dkbnull/hello-wiki/blob/main/41-Redis/02-Redis%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E3%80%81%E5%87%BB%E7%A9%BF%E4%B8%8E%E9%9B%AA%E5%B4%A9%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md" target="_blank">
+     <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+  </a>
     <a href="https://mp.weixin.qq.com/s/Bnnj8L14QdOhT9SKJG9u8w" target="_blank">
        <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
     </a>
