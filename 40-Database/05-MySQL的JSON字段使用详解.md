@@ -966,10 +966,16 @@ WHERE p.`is_deleted` = 0;
 ---
 
 <p align="center">
+    <a href="https://github.com/dkbnull/hello-wiki/blob/main/40-Database/05-MySQL%E7%9A%84JSON%E5%AD%97%E6%AE%B5%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.md" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-访问地址-blue?logo=github">
+    </a>
+    <a href="https://gitee.com/dkbnull/hello-wiki/blob/main/40-Database/05-MySQL%E7%9A%84JSON%E5%AD%97%E6%AE%B5%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.md" target="_blank">
+        <img src="https://img.shields.io/badge/Gitee-访问地址-red?logo=gitee">
+    </a>
     <a href="https://mp.weixin.qq.com/s/QRwXxoWXl99Dm8bycT3UqQ" target="_blank">
        <img src="https://img.shields.io/badge/微信公众号-访问地址-brightgreen?logo=wechat">
     </a>
-    <a href="https://juejin.cn/spost/7655992822656630834" target="_blank">
+    <a href="https://juejin.cn/post/7655992822656630834" target="_blank">
        <img src="https://img.shields.io/badge/掘金-访问地址-blue?logo=juejin">
     </a>
     <a href="https://zhuanlan.zhihu.com/p/2054692930275873707" target="_blank">
