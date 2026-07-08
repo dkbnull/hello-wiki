@@ -1,6 +1,6 @@
 # 数据库
 
-关系型数据库实践，涵盖 MySQL、PostgreSQL、SQL Server 的使用与差异对比。
+关系型数据库实践，涵盖 MySQL、PostgreSQL、SQL Server 的使用与差异对比，以及数据库原理与调优。
 
 ## 文章列表
 
@@ -9,3 +9,4 @@
 3. [配置MySQL远程连接](03-配置MySQL远程连接.md)
 4. [SQL Server 与 MySQL 字段、函数差异](<04-SQL Server 与 MySQL 字段、函数差异.md>)
 5. [MySQL 的 JSON 字段使用详解](05-MySQL的JSON字段使用详解.md)
+6. [数据库性能调优详解](06-数据库性能调优详解.md)
