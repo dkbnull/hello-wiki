@@ -39,3 +39,4 @@ Spring Boot 框架从入门到进阶的系列教程，涵盖核心配置、数�
 23. [Spring Boot支持发送邮件](<22-Spring Boot支持发送邮件.md>)
 24. [Windows-Linux环境下Spring Boot启动和关闭脚本](<23-Windows-Linux环境下Spring Boot启动和关闭脚本.md>)
 25. [Spring Boot请求处理组件对比详解](<24-Spring Boot请求处理组件对比详解.md>)
+26. [Spring Boot依赖注入方式对比详解](<25-Spring Boot依赖注入方式对比详解.md>)
