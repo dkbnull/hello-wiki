@@ -5,3 +5,4 @@
 ## 文章列表
 
 1. [GitLab统计代码量](01-GitLab统计代码量.md)
+2. [GitHub搭建个人博客](02-GitHub搭建个人博客.md)
