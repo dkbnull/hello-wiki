@@ -16,13 +16,13 @@
   <img src="https://img.shields.io/badge/Java-1-blueviolet">
   <img src="https://img.shields.io/badge/Python-0-lightgrey">
   <img src="https://img.shields.io/badge/Dart-0-lightgrey">
-  <img src="https://img.shields.io/badge/SpringBoot-24-blue">
+  <img src="https://img.shields.io/badge/SpringBoot-27-blue">
   <img src="https://img.shields.io/badge/SpringCloud-9-blue">
   <img src="https://img.shields.io/badge/HTML--CSS--JS-0-lightgrey">
   <img src="https://img.shields.io/badge/Vue-1-green">
   <img src="https://img.shields.io/badge/Android-3-orange">
-  <img src="https://img.shields.io/badge/数据库-5-red">
-  <img src="https://img.shields.io/badge/Redis-1-red">
+  <img src="https://img.shields.io/badge/数据库-9-red">
+  <img src="https://img.shields.io/badge/Redis-2-red">
   <img src="https://img.shields.io/badge/Linux-3-yellow">
   <img src="https://img.shields.io/badge/Docker-9-yellow">
   <img src="https://img.shields.io/badge/Nginx-0-lightgrey">
@@ -32,8 +32,8 @@
   <img src="https://img.shields.io/badge/操作系统-0-lightgrey">
   <img src="https://img.shields.io/badge/计算机网络-0-lightgrey">
   <img src="https://img.shields.io/badge/设计模式-0-lightgrey">
-  <img src="https://img.shields.io/badge/其他-1-inactive">
-  <img src="https://img.shields.io/badge/合计-56-brightgreen">
+  <img src="https://img.shields.io/badge/其他-2-inactive">
+  <img src="https://img.shields.io/badge/合计-66-brightgreen">
 </p>
 
 # 项目简介
